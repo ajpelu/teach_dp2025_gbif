@@ -1,0 +1,171 @@
+---
+title: "Del IPT al Artículo de Datos"
+subtitle: "[Estandarización, documentación y publicación de datos de seguimientos de biodiversidad</br> Taller GBIF.ES - Sevilla</br>28-30/10/2025]{.smaller}"
+institute: "Instituto de Ciencias Forestales ICIFOR-INIA, CSIC"
+format: 
+  revealjs:
+    theme: [default, style.scss]
+author: "[Antonio J. Pérez-Luque]{.yellow}"
+editor:
+  render-on-save: true
+---
+
+## Introducción
+
+- Calidad de los [metadados]{.yellow}
+
+  - Nivel de *completitud* 
+
+- Encontrar [solución óptima]{.yellow}
+  - herramientas 
+  - Metadatos Enriquecidos: 
+      - alta probabilidad de descubrimiento de los datos
+      - facilitación del proceso de generación del DP
+
+
+## Desde el IPT al DP: [vías]{.yellow}
+
+![](assets/general_flow_ways.png){fig-align="center"}
+
+
+##
+### 1. Vía [Semiautomática]{.yellow}
+
+![](assets/general_flow_xml.png){fig-align="center"}
+
+
+##
+### Exportar Metadatos desde IPT ([formato XML]{.yellow})
+-   Dirígete al IPT de pruebas [https://ipt-demo.gbif.es/](https://ipt-demo.gbif.es/)
+-   Abrir el recurso: 
+
+::: {.callout-note appearance="simple" icon=false}
+*Butterfly observations data. Monitoring butterflies in the Sierra Nevada (Granada, Spain)*
+:::
+
+
+## 
+
+![](assets/ipt_eml_mariposas.png){fig-align="center"}
+
+##
+### Exportar Metadatos desde IPT ([formato XML]{.yellow})
+
+-  Descargar el archivo [EML](https://biodiversidad.co/estandar-eml/)
+
+::: {.callout-caution appearance="simple"}
+El archivo descargado tendrá la extensión [`.xml`]
+:::
+
+
+## 
+
+![](assets/xml_mariposas.png){fig-align="center"}
+
+##
+### Importar Metadatos ([Arpha Writing Tool]{.yellow}) 
+- Plataforma para generar Data Papers* 
+
+- Arpha Writing Tool [https://arpha.pensoft.net/](https://arpha.pensoft.net/)
+
+
+![](assets/arpha_entry.png){fig-align="center"}
+
+##
+### Importar Metadatos ([Arpha Writing Tool]{.yellow})
+
+- Comenzar nuevo manuscrito 
+
+![](assets/arpha_start_ms.png){fig-align="center"}
+
+##
+### Importar Metadatos ([Arpha Writing Tool]{.yellow})
+
+- Seleccionar Revista
+
+![](assets/arpha_select_journal.png){fig-align="center"}
+
+##
+### Importar Metadatos ([Arpha Writing Tool]{.yellow})
+
+- Importar manuscrito
+- Seleccionar archivo EML ([formato xml]{.yellow})
+
+![](assets/arpha_import.png){fig-align="center"}
+
+
+##
+### Importar Metadatos ([Arpha Writing Tool]{.yellow})
+
+- Seleccionar autores
+
+![](assets/arpha_authors.png){fig-align="center"}
+
+
+##
+### Importar Metadatos ([Arpha Writing Tool]{.yellow})
+
+- Completar manuscrito
+
+![](assets/arpha_ejemplo.png){fig-align="center"}
+
+## 
+### Otras plataformas [semiautomáticas]{.yellow}
+
+- [*Nephila* Paper](https://ferramentas.sibbr.gov.br/nephila/)
+
+- Importar usando Dwc-Archive 
+
+![](assets/nephila.png){fig-align="center"}
+
+##
+### 2. Vía [Manual]{.yellow}
+
+![](assets/general_flow_rtf.png){fig-align="center"}
+
+##
+### Exportar Metadatos desde IPT ([formato RTF]{.yellow})
+
+- Exportar desde el IPT los metadatos en formato de texto enriquecido (*rich text format*)
+- Ejemplo: 
+
+::: {.callout-note appearance="simple" icon=false}
+*Diversidad potencial de mamíferos marinos nativos en el Sistema de Información en Biodiversidad para Aysén (SIB-Aysén), Chile*
+:::
+
+## 
+
+![](assets/manual_mamiferos_chile.png){fig-align="center"}
+
+## 
+### Editar Metadatos 
+
+- Importar [rtf]{.yellow} a un procesador de texto (Word; OpenOffice Writer; LibreOffice, etc)
+
+- Completar metadatos
+
+- Ajustar a plantilla de la revista 
+
+
+## 
+### de [rtf]{.yellow} a DataPaper (eg. [ecosistemas]{.yellow})
+
+::: {layout-ncol=2}
+![](assets/manual_mamiferos_rtf.png)
+
+![](assets/manual_mamiferos_ecosistemas.png)
+::: 
+
+[[Sánchez-Jardón et al. 2022](https://doi.org/10.7818/ECOS.2410)]{.smaller .dcha}
+
+## Muchas Gracias {background-color="white"}
+
+- [@ajpelu.bsky.social](https://bsky.app/profile/ajpelu.bsky.social)
+- [antonio.perez@inia.csic.es](mailto: antonio.perez@inia.csic.es)
+- [ajpelu@gmail.com](mailto: ajpelu@gmail.com)
+
+[Ayuda JDC2022-050056-I financiada por MCIN/AEI /10.13039/501100011033 y por la Unión Europea NextGenerationEU/PRTR]{.smaller}
+
+![](assets/logo_icifor.png){fig-align="center" height="150"}
+![](assets/logo-jdc.png){fig-align="center" height="100"}
+

@@ -1,0 +1,364 @@
+---
+title: "Introducción a los Data Papers"
+subtitle: "[Estandarización, documentación y publicación de datos de seguimientos de biodiversidad</br> Taller GBIF.ES - Sevilla</br>28-30/10/2025]{.smaller}"
+institute: "Instituto de Ciencias Forestales ICIFOR-INIA, CSIC"
+format: 
+  revealjs:
+    theme: [default, style.scss]
+author: "[Antonio J. Pérez-Luque]{.yellow}"
+editor:
+  render-on-save: true
+---
+
+# [Publicación]{.yellow} de Datos
+
+# ... ¿porqué [publicar Datos]{.yellow}?
+
+##
+#### ... ¿porqué [publicar Datos]{.yellow}?
+
+- Necesitamos más información para poder abordar la actual crisis de la biodiversidad
+
+![](assets/dp_africa.png){fig-align="center"}
+
+[[Stephenson et al. 2017](https://doi.org/10.1016/j.biocon.2016.09.003)]{.smaller}
+
+
+##
+#### ... ¿porqué [publicar Datos]{.yellow}?
+- Existencia de sesgos (temporales, espaciales, taxonómicos) en la información disponible
+
+![](assets/dp_sesgos.png){fig-align="center"}
+
+[[Rocha-Ortega et al. 2021](https://doi.org/10.1111/een.13027)]{.smaller}
+
+##
+#### ... ¿porqué [publicar Datos]{.yellow}?
+
+- Gran parte de los datos [no están accesibles]{.yellow} imposibilitando su reutilización
+
+![](assets/dp_peligro.png){fig-align="center" height="300"}
+
+datos [En Peligro de Extición]{.yellow}
+
+[[Roche et. al. 2015](https://doi.org/10.1371/journal.pbio.1002295)]{.smaller}
+
+
+##
+#### ... ¿porqué [publicar Datos]{.yellow}?
+[The early bird gets the return: The benefits of publishing your data sooner]{.smaller}
+
+![](assets/dp_sooner.png){fig-align="center"}
+
+[[Lortie 2021](https://doi.org/10.1002/ece3.7853)]{.smaller}
+
+
+## {background-color="white"}
+#### ... [¿porqué ]{.darkblue} [publicar Datos]{.yellow}[? ]{.darkblue}
+Reducción del riesgo de pérdida de los datos
+
+![](assets/dp_michener.png){fig-align="center"}
+
+[[Michener et al. 1997](https://doi.org/10.1890/1051-0761(1997)007[0330:NMFTES]2.0.CO;2)]{.smaller}
+
+# ... [obstáculos]{.yellow} para publicar Datos
+
+##
+### 
+La mayoría de los investigadores reconocen la importancia de compartir datos ([beneficios]{.yellow}), aunque señalan diferentes barreras ([costes]{.yellow}) 
+
+::: {.incremental}
+- Dificultad para la publicación de los datos
+
+- Escasez de herramientas sencillas y protocolos para la redacción de los documentos de metadatos
+
+- Gran heterogeneidad y diversidad de estándares, herramientas y extensiones de Metadatos
+
+- Alto coste y mantenimiento de las infraestructuras necesarias para gestionar la información
+
+- [Escaso beneficio directo para los proveedores de datos]{.yellow}
+:::
+
+
+# ... [Data Paper]{.yellow}
+
+## {background-color="white"}
+![](assets/dp_perez_ros.png){fig-align="center"}
+
+[[Pérez-Luque & Candeira 2019](https://doi.org/10.7818/ECOS.1838)]{.smaller}
+
+
+## 
+> *Artículo académico que describe un conjunto de datos de biodiversidad y se publica en una revista científica al uso*
+
+![](assets/dp_penev.png){fig-align="center" height="350"}
+
+[[Chavan & Penev (2011)](https://doi.org/10.1186/1471-2105-12-S15-S2)]{.smaller}
+
+##
+### ¿Qué es un [Data Paper]{.yellow}?
+::: {.incremental}
+
+- Un [incentivo]{.yellow}: una herramienta para favorecer la inversión de esfuerzos en la publicación de datos de biodiversidad
+
+- Una [publicación académica]{.yellow} que se ajusta a las prácticas académicas estándar sobre un documento que contiene los metadatos de uno o varios datasets accesibles
+
+- Un artículo científico cuyo [propósito]{.yellow} es describir datos más que realizar una investigación
+
+- Contiene hechos sobre los datos y [no hipótesis]{.yellow} ni argumentaciones basadas en los datos, aunque pueden inclur análisis descriptivos
+
+:::
+
+##
+#### ¿Qué es un [Data Paper]{.yellow}? 
+Landscape of Open Data in ecology
+
+![](assets/dp_landscape.png){fig-align="center"}
+
+[[Culina et al. 2018](https://doi.org/10.1038/s41559-017-0458-2)]{.smaller}
+
+
+## {background-color="white"}
+#### [dataset, repositorios,]{.darkblue} [data paper]{.yellow} ...  
+
+![](assets/dp_candela_flow.png){fig-align="center" height="350"}
+
+[[Candela et al. (2015)](https://doi.org/10.1002/asi.23358)]{.smaller}
+
+
+## [Objetivos]{.yellow} de un Data Paper 
+
+- Proporcionar una publicación científica citable que dé reconocimiento académico (beneficio) a los proveedores de datos
+
+- Describir los datos de una forma entendible y estructurada
+
+- Facilitar la visibilidad de los datos de biodiversidad entre la comunidad científica
+
+
+##
+### [Beneficios]{.yellow} de un Data Paper 
+
+- Crédito en una publicación académica
+- Citación de los datos
+- Reconocimiento y construcción de carrera
+- Posibilidad de rastrear el uso
+- Es una ventana abierta para la colaboración
+- Proceso de revisión de los datos
+- Más fáciles de descubrir
+
+
+## {background-color="white"}
+#### [Beneficios]{.yellow} [de un Data Paper]{.darkblue}
+
+- Aumento de la reutilización de los datos
+- Aumento de la citación del recurso original 
+
+![](assets/dp_beneficios.png){fig-align="center"}
+
+[[Pérez-Luque & Candeira 2019](https://doi.org/10.7818/ECOS.1838)]{.smaller}
+
+
+##
+#### The tragedy of the biodiversity data commons
+![](assets/dp_escribano.jpg){fig-align="center"}
+
+[[Escribano et al. 2018](https://doi.org/10.1093/database/bay033)]{.smaller}
+
+## 
+### [Beneficios]{.yellow} de un Data Paper 
+
+- La revisión del conjunto de datos permite la detección de errores, aumentando la calidad del conjunto de datos 
+
+![](assets/dp_review.jpg){fig-align="center"}
+
+
+## pasos para generar [Data Papers]{.yellow}
+
+##
+### pasos para generar [Data Papers]{.yellow}
+![](assets/dp_pasos.png){fig-align="center"}
+
+##
+#### pasos para generar [Data Papers]{.yellow}
+
+![](assets/dp_pasos.png){fig-align="center"}
+
+¿Qué tipos de datos incluir? 
+
+- En nuestro caso datos de biodiversidad
+- Datos ambientales asociados a datos de biodiversidad
+
+## 
+#### pasos para generar [Data Papers]{.yellow}
+![](assets/dp_lorite.png){fig-align="center"}
+
+
+[[Lorite et al. 2020](https://doi.org/10.1002/ecy.3091)]{.smaller}
+
+
+## 
+#### pasos para generar [Data Papers]{.yellow}
+![](assets/biodiversity_phytokeys.png){fig-align="center"}
+
+[[Pérez-Luque et al. 2015](https://doi.org/10.3897%2Fphytokeys.46.9116)]{.smaller}
+
+
+##
+#### pasos para generar [Data Papers]{.yellow}
+
+![](assets/dp_pasos.png){fig-align="center"}
+
+¿Cuantos conjuntos de datos incluir en el DP? 
+
+- Conjugar intereses autor / publicador / institución / revista
+- 1 dataset *vs.* varios datasets  
+
+## 
+
+[[Galicia et al. 2014](https://doi.org/10.3897/zookeys.403.7149)]{.smaller}
+
+:::: {.columns}
+
+::: {.column width="50%"}
+![](assets/dp_navarra.png){fig-align="center"}
+:::
+
+::: {.column width="50%"}
+![](assets/dp_navarra_1dataset.png){fig-align="center"}
+:::
+
+::::
+
+
+## 
+
+[[Rodeles et al. 2016](https://doi.org/10.1038/sdata.2016.91)]{.smaller}
+
+:::: {.columns}
+
+::: {.column width="50%"}
+![](assets/dp_navarra.png){fig-align="center"}
+:::
+
+::: {.column width="50%"}
+![](assets/dp_navarra_varios.png){fig-align="center"}
+:::
+
+::::
+
+
+
+##
+#### pasos para generar [Data Papers]{.yellow}
+
+![](assets/dp_pasos.png){fig-align="center"}
+
+¿Autores? 
+
+- Definir responsabilidades
+- Los creadores del recurso no tienen porque ser los autores del artículo
+- Crédito
+- Responsabilidad
+
+
+## 
+
+![](assets/dp_migrame.png){fig-align="center"}
+
+[[Pérez-Luque et al. 2015](https://doi.org/10.3897/phytokeys.56.5482)]{.smaller}
+
+
+##
+#### pasos para generar [Data Papers]{.yellow}
+
+![](assets/dp_pasos.png){fig-align="center"}
+
+¿donde publicar? 
+
+- Buscar revistas donde se puedan publicar Artículos de Datos
+- Conjugar intereses Autores / Editores 
+- Disponibilidad de presupuesto
+- Factor de Impacto
+
+
+
+# ¿donde publicar [Data Papers]{.yellow}?
+
+
+## 
+Listados con revistas de Datos: 
+
+- [GBIF https://www.gbif.org/es/data-papers](https://www.gbif.org/es/data-papers)
+
+- [Foster Open Science](https://www.fosteropenscience.eu/taxonomy/term/114)
+
+![](assets/dp_journals.png){fig-align="center"}
+
+
+## 
+#### ¿donde publicar [Data Papers]{.yellow}?
+
+![](assets/dp_amano.png){fig-align="center" height="300"}
+
+- 65% de las fuentes citadas no eran en lengua inglesa 
+
+[[Amano et al. 2023](https://doi.org/10.1038/s41893-023-01087-8)]{.smaller}
+
+## 
+#### [Biota Colombiana]{.yellow} [http://revistas.humboldt.org.co/index.php/biota](http://revistas.humboldt.org.co/index.php/biota)
+
+:::: {.columns}
+
+::: {.column width="50%"}
+![](assets/dp_biota.png){fig-align="center"}
+:::
+
+::: {.column width="50%"}
+![](assets/dp_biota_dp.png){fig-align="center"}
+:::
+
+::::
+ 
+
+## 
+#### [Ecosistemas]{.yellow} 
+
+![](assets/dp_apuesta.png){fig-align="center"}
+
+
+- Las revistas que ya publican artículos de datos en castellano generalmente tienen un ámbito geográfico o una tipología de datos restringidos en comparación con el alcance geográfico
+y tipo de audiencia de Ecosistemas
+- 29 envíos (16 rechazados; 3 en revisión)
+
+## 
+#### [Ecosistemas]{.yellow} 
+
+[https://www.revistaecosistemas.net/ ](https://www.revistaecosistemas.net/)
+
+![](assets/dp_ecosistemas_ejemplo.png){fig-align="center"}
+
+
+## 
+#### [Editorial Pensoft]{.yellow} 
+
+![](assets/dp_pensoft.png){fig-align="center"}
+
+##
+### [Editorial Pensoft]{.yellow}
+
+Arpha Writing Tool [https://arpha.pensoft.net/](https://arpha.pensoft.net/)
+
+![](assets/arpha_entry.png){fig-align="center"}
+
+## Muchas Gracias {background-color="white"}
+
+- [@ajpelu.bsky.social](https://bsky.app/profile/ajpelu.bsky.social)
+- [antonio.perez@inia.csic.es](mailto: antonio.perez@inia.csic.es)
+- [ajpelu@gmail.com](mailto: ajpelu@gmail.com)
+
+[Ayuda JDC2022-050056-I financiada por MCIN/AEI /10.13039/501100011033 y por la Unión Europea NextGenerationEU/PRTR]{.smaller}
+
+![](assets/logo_icifor.png){fig-align="center" height="150"}
+![](assets/logo-jdc.png){fig-align="center" height="100"}
+
+
