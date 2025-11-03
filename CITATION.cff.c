@@ -16,7 +16,7 @@ authors:
     family-names: Pérez-Luque
 identifiers:
   - type: doi
-    value: '10.5281/zenodo.17516296'
+    value: '10.5281/zenodo.17518116'
 repository-code: 'https://ajpelu.github.io/teach_dp2025_gbif/'
 abstract: >-
   Material for the "Data Papers" module within the course

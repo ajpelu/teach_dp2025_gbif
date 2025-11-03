@@ -1,6 +1,6 @@
 # README 
 
-[![DOI](https://zenodo.org/badge/1088953953.svg)](https://doi.org/10.5281/zenodo.17516296) 
+[![DOI](https://zenodo.org/badge/1089120576.svg)](https://doi.org/10.5281/zenodo.17518116)
 
 Este repositorio contiene parte del material del Taller ***Estandarización, documentación y 
 publicación de datos de seguimientos de biodiversidad*** organizado por el 
@@ -20,4 +20,4 @@ Mas información sobre el curso [aquí](https://gbif.es/talleres/taller-gbif-es-
 This repository is licensed as Creative Commons Attribution 4.0 ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)).  
 
 #### How to cite:
-Pérez-Luque, A. J. (2025). Módulo Artículo de Datos. Curso: Estandarización, documentación y publicación de datos de seguimientos de biodiversidad. [https://ajpelu.github.io/teach_dp2025_gbif/](https://ajpelu.github.io/teach_dp2025_gbif/). [doi:10.5281/zenodo.17516296](https://doi.org/10.5281/zenodo.17516296)
+Pérez-Luque, A. J. (2025). Módulo Artículo de Datos. Curso: Estandarización, documentación y publicación de datos de seguimientos de biodiversidad. [https://ajpelu.github.io/teach_dp2025_gbif/](https://ajpelu.github.io/teach_dp2025_gbif/). [doi:10.5281/zenodo.17518116](https://doi.org/10.5281/zenodo.17518116)
